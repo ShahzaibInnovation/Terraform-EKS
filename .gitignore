@@ -1,0 +1,17 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Ignore .terraform directory (provider plugins)
+.terraform/
+
+# Override file with sensitive variables
+terraform.tfvars
+
+# Local environment config
+*.bak
+*.backup
+*.log
