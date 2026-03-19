@@ -222,28 +222,7 @@ terraform destroy
 
 ---
 
-## 📌 Notes
 
-* **Control plane** is managed by AWS, not visible as EC2.
-* Use **t3.micro** for Free-Tier nodes, **scale node group carefully**.
-* All resources are tagged automatically via `default_tags` in `provider.tf`.
-* Remote state ensures **team collaboration safety**.
-
----
-
-### 📖 References
-
-* [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-* [EKS Terraform Module Guide](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest)
-* [AWS EKS Documentation](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
-
----
-
-✅ **Now anyone can clone this project, configure backend, and deploy a Free-Tier EKS cluster easily.**
-
-```
-
----
 
 I can also create a **shorter “copy-paste ready” version** with **all commands at the bottom** so someone can literally run the project in **5 minutes**.  
 
